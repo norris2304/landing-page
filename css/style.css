@@ -2,12 +2,13 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    flex: 1;
+    background-color: #1F2937;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: #1F2937;
 }
 
 .logo {
@@ -29,7 +30,43 @@ body {
 }
 
 .hero {
-    background-color: #1F2937
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 16px;
+}
+
+.hero .main {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+.hero .sub {
+    color: #e7e5eb;
+    font-family: sans-serif;
+    font-size: 18px;
+
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+}
+
+.image {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+img {
+    max-width:60%;
 }
 
 a {
