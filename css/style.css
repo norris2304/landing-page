@@ -33,27 +33,29 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 500px;
-    padding: 16px;
+    padding: 24px;
 }
 
 .hero .main {
     color: #F9FAF8;
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 800;
     font-family: sans-serif;
+    margin: 0 0 10px 0;
+    text-align: left;
 }
 
 .hero .sub {
     color: #e7e5eb;
     font-family: sans-serif;
     font-size: 18px;
-
+    margin: 0px;
 }
 
 .content {
     display: flex;
     justify-content: center;
-    margin: 16px;
+    margin-top: 40px;
 }
 
 .image {
