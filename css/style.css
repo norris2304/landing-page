@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-family: sans-serif;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 16px;
+    gap: 16px;
+    font-size: 16px;
+}
+
+.hero {
+    background-color: #1F2937
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
