@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     flex: 1;
     background-color: hsla(330, 48.5%, 32%, 1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .section1 {
@@ -46,6 +47,7 @@ body {
     font-size: 36px;
     font-weight: 800;
     font-family: sans-serif;
+    color: hsla(330, 93.3%, 94.1%, 1);
     text-align: left;
     margin: 0;
 }
@@ -64,6 +66,43 @@ body {
     padding: 50px;
 }
 
+.content2 {
+    display: flex;
+    flex-direction: column;
+    background-color: hsla(330, 93.3%, 94.1%, 1);
+    justify-content: center;
+}
+
+.header2 {
+    display: flex;
+    justify-content: center;
+    color: hsla(330, 40.2%, 45.9%, 1);
+    font-family: sans-serif;
+}
+
+.section2cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    flex-shrink: 0;
+}
+
+.s2card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    max-width: 250px;
+}
+
+.s2card p {
+    margin: 0;
+    color: hsla(330, 40.2%, 45.9%, 1);
+    text-align: center;
+}
+
 .image {
     display: flex;
     align-self: center;
@@ -71,12 +110,10 @@ body {
     padding: 0;
     margin: 0;
     gap: 0;
-
 }
 
 button {
     width: 90px;
-    font-family: Roboto, sans-serif;
     border: none;
     border-radius: 8px;
     background: #F740A9;
@@ -87,9 +124,19 @@ button {
 
 img {
     max-width:70%;
+    border-radius: 8px;
 }
 
 a {
     text-decoration: none;
     color: #e5e7eb;
+}
+
+.section3 {
+    display: flex;
+}
+
+.content3 {
+    display: flex;
+    flex-direction: column;
 }
