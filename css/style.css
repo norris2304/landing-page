@@ -15,15 +15,16 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding-bottom: 24px;
 }
 
 .logo {
     display: flex;
     align-items: center;
     font-size: 24px;
-    color: #F9FAF8;
-    font-family: sans-serif;
+    color: hsla(330, 93.3%, 94.1%, 1);
+    font-style: italic;
 }
 
 .links {
@@ -31,9 +32,9 @@ body {
     display: flex;
     align-items: center;
     font-family: sans-serif;
-    padding: 16px;
     gap: 16px;
-    font-size: 16px;
+    font-size: 24px;
+    margin: 0;
 }
 
 .hero {
@@ -63,7 +64,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding: 0 50px 0 50px;
 }
 
 .content2 {
