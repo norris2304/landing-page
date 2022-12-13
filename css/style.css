@@ -71,6 +71,8 @@ body {
     flex-direction: column;
     background-color: hsla(330, 93.3%, 94.1%, 1);
     justify-content: center;
+    gap: 16px;
+    padding: 16px 0 16px 0;
 }
 
 .header2 {
@@ -78,6 +80,7 @@ body {
     justify-content: center;
     color: hsla(330, 40.2%, 45.9%, 1);
     font-family: sans-serif;
+    margin: 0;
 }
 
 .section2cards {
@@ -134,9 +137,25 @@ a {
 
 .section3 {
     display: flex;
+    justify-content: center;
+    background-color: rgb(254, 208, 231);
 }
 
 .content3 {
     display: flex;
     flex-direction: column;
+    width: 70ch;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
 }
