@@ -116,6 +116,10 @@ body {
     gap: 0;
 }
 
+.image img {
+    border: 2px solid hsla(330, 93.3%, 94.1%, 1);
+}
+
 button {
     width: 90px;
     border: none;
@@ -129,6 +133,7 @@ button {
 img {
     max-width:70%;
     border-radius: 8px;
+    border: 2px solid hsla(330, 48.5%, 32%, 1)
 }
 
 a {
@@ -209,4 +214,10 @@ a {
 .quote,
 .author {
     color: hsla(330, 40.2%, 45.9%, 1);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: hsla(330, 93.3%, 94.1%, 1);
 }
