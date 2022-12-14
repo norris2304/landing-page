@@ -150,6 +150,48 @@ a {
     padding: 24px 0 24px 0;
 }
 
+.section4 {
+    display: flex;
+    justify-content: center;
+    background-color: hsla(330, 93.3%, 94.1%, 1);
+
+}
+
+.ctasignup {
+    background-color: transparent;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctasignup button {
+    padding-left: 8px
+}
+
+.content4 {
+    display: flex;
+    background-color: #F740A9;
+    margin: 50px 200px;
+    border-radius: 8px;
+    padding: 0 24px 0 24px;
+    color: hsla(330, 93.3%, 94.1%, 1);
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+}
+
+.ctaheader {
+    font-size: larger;
+    font-weight: 800;
+}
+
+.ctatext {
+    padding: 24px
+}
+
 .quote {
     font-size: 36px;
     font-style: italic;
